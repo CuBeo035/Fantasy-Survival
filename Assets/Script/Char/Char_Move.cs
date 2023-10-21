@@ -40,11 +40,11 @@ public class Char_Move : MonoBehaviour
         {
             if (Velocity.x == 1)
             {
-                transform.localScale = new Vector3(10, 10, 10);
+                transform.localScale = new Vector3(1, 1, 1);
             }
             else if(Velocity.x == -1)
             {
-                transform.localScale = new Vector3(-10, 10, 10);
+                transform.localScale = new Vector3(-1, 1, 1);
             }
         }
         //dash
